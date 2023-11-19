@@ -1,0 +1,5 @@
+def hexagon_area(l):
+  area=1/2*l*l*6
+  print(f"The Area of the regular hexagon is {area}")
+l=int(input("Enter the length of a side of a regular hexagon"))
+area=hexagon_area(l)

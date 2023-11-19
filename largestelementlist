@@ -1,0 +1,14 @@
+def largest(lst):
+  max=0
+  for i in lst:
+    if i > max:
+      max=i
+  return max
+
+n=int(input("enter the number of elements in lst")) 
+lst=[]
+for i in range(n):
+  ele=int(input(f"Enter the {i} element"))
+  lst.append(ele)
+max=largest(lst)
+print(f"The largest element of the {lst} is {max}")
